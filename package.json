@@ -1,0 +1,22 @@
+{
+  "name": "ezwash-frontend",
+  "version": "1.0.0",
+  "author": "Charles Kenney",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^3.0.1-beta.3",
+    "next-redux-wrapper": "^1.1.2",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0"
+  },
+  "scripts": {
+    "dev": "node server",
+    "build": "next build",
+    "start": "NODE_ENV=production node server"
+  },
+  "devDependencies": {
+    "sw-precache-webpack-plugin": "^0.11.3"
+  }
+}
