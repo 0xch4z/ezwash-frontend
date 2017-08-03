@@ -2,6 +2,8 @@ import React, { Component, PropTypes } from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
 
+import Layout from '../components/layout';
+
 class Error extends Component {
   static propTypes() {
     return {
@@ -33,13 +35,10 @@ class Error extends Component {
         errorMessage = `An HTTP Error ${ errorCode } has occured!`;
     }
     return (
-      <div>
-        <Head>
-          <title>{errorTitle}</title>
-        </Head>
+      <Layout title={errorTitle}>
         <h1>{errorTitle}</h1>
         <p>{errorMessage}</p>
-      </div>
+      </Layout>
     );
   }
 }

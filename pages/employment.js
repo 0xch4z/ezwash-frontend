@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import Layout from '../components/layout';
 
-class Index extends Component {
+class Employment extends Component {
 
 	render() {
 		const { stars } = this.props;
 		return (
-			<Layout>
-				<h1>Home</h1>
+			<Layout title="EZ Wash | Employment">
+				<h1>Employment</h1>
 			</Layout>
 		);
 	}
 }
 
-export default Index;
+export default Employment;

@@ -1,0 +1,223 @@
+/* custom nav bar height */
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 70px;
+    height: 70px;
+}
+.navbar-nav li a {
+  padding-top: 0;
+}
+.navbar-header {
+  display: flex;
+}
+.navbar-header img {
+  flex-grow: 1;
+}
+.navbar-header button {
+  margin: 0 auto;
+  align-self: center;
+}
+/* custom nav bar height */
+/* remove spacing from nav bottom */
+.navbar-default {
+  margin-bottom: 0;
+}
+/* remove spacing from nav bottom */
+
+.carousel-inner>.item>img {
+  object-fit: cover;
+  width: 100%;
+  max-height: calc(80vh - 72px);
+}
+#root {
+  min-height: 100vh;
+}
+#layout-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#content {
+  flex-grow: 1;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 70px;
+  font-weight: 300;
+  color: #999;
+}
+.navbar-nav li a {
+  text-decoration: none;
+  color: inherit;
+}
+/* animated truck */
+#truck {
+  position: absolute;
+  width: 290px;
+  height: 300px;
+}
+
+#truck-body img {
+  -webkit-animation: jolt 1100ms infinite ease-in-out;
+  -moz-animation: jolt 1100ms infinite ease-in-out;
+  -o-animation: jolt 1100ms infinite ease-in-out;
+  -ms-animation: jolt 1100ms infinite ease-in-out;
+  animation: jolt 1100ms infinite ease-in-out;
+}
+
+.wheel {
+  overflow: hidden;
+  transform-origin: center;
+  height: 13%;
+  width: 13%;
+  bottom: 145px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 16px;
+  -webkit-animation: spin1 2s infinite linear;
+  -moz-animation: spin1 2s infinite linear;
+  -o-animation: spin1 2s infinite linear;
+  -ms-animation: spin1 2s infinite linear;
+  animation: spin1 2s infinite linear;
+  display: block;
+}
+
+.wheel img {
+
+}
+ 
+@keyframes spin1 {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} 
+@-webkit-keyframes spin1 {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes spin1 {
+  0% { -moz-transform: rotate(0deg); }
+  100% { -moz-transform: rotate(360deg); }
+}
+@-o-keyframes spin1 {
+  0% { -o-transform: rotate(0deg); }
+  100% { -o-transform: rotate(360deg); }
+}
+@-ms-keyframes spin1 {
+  0% { -ms-transform: rotate(0deg); }
+  100% { -ms-transform: rotate(360deg); }
+}
+
+@keyframes jolt {
+  33% { transform: translate(.75px, -2.5px);  }
+} 
+@-webkit-keyframes jolt {
+  33% { -webkit-transform: translate(.75px, -2.5px); }
+}
+@-moz-keyframes jolt {
+  33% { -moz-transform: translate(.75px, -2.5px); }
+}
+@-o-keyframes jolt {
+  33% { -o-transform: translate(.75px, -2.5px); }
+}
+@-ms-keyframes jolt {
+  33% { -ms-transform: translate(.75px, -2.5px); }
+}
+
+#wheel-1 img {
+  bottom: 147px;
+  left: -7.5px;
+  transform-origin: center;
+  height: 13%;
+  width: 13%;
+  bottom: 145px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 16px;
+  -webkit-animation: spin1 2s infinite linear;
+  -moz-animation: spin1 2s infinite linear;
+  -o-animation: spin1 2s infinite linear;
+  -ms-animation: spin1 2s infinite linear;
+  animation: spin1 2s infinite linear;
+  display: block;
+}
+
+#wheel-2 img {
+  bottom: 147px;
+  left: 165px;
+  transform-origin: center;
+  height: 13%;
+  width: 13%;
+  bottom: 145px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 16px;
+  -webkit-animation: spin1 2s infinite linear;
+  -moz-animation: spin1 2s infinite linear;
+  -o-animation: spin1 2s infinite linear;
+  -ms-animation: spin1 2s infinite linear;
+  animation: spin1 2s infinite linear;
+  display: block;
+}
+
+#wheel-3 img {
+  bottom: 147px;
+  left: 220px;
+  transform-origin: center;
+  height: 13%;
+  width: 13%;
+  bottom: 145px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 16px;
+  -webkit-animation: spin1 2s infinite linear;
+  -moz-animation: spin1 2s infinite linear;
+  -o-animation: spin1 2s infinite linear;
+  -ms-animation: spin1 2s infinite linear;
+  animation: spin1 2s infinite linear;
+  display: block;
+}
+
+#wheel-4 img {
+  bottom: 147px;
+  right: 75px;
+  transform-origin: center;
+  height: 13%;
+  width: 13%;
+  bottom: 145px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 16px;
+  -webkit-animation: spin1 2s infinite linear;
+  -moz-animation: spin1 2s infinite linear;
+  -o-animation: spin1 2s infinite linear;
+  -ms-animation: spin1 2s infinite linear;
+  animation: spin1 2s infinite linear;
+  display: block;
+}
+
+#wheel-5 img {
+  bottom: 147px;
+  right: 20px;
+  transform-origin: center;
+  height: 13%;
+  width: 13%;
+  bottom: 145px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 16px;
+  -webkit-animation: spin1 2s infinite linear;
+  -moz-animation: spin1 2s infinite linear;
+  -o-animation: spin1 2s infinite linear;
+  -ms-animation: spin1 2s infinite linear;
+  animation: spin1 2s infinite linear;
+  display: block;
+}
+
+
+@keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(359deg); }
+}

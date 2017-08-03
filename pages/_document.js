@@ -27,6 +27,9 @@ export default class MyDocument extends Document {
 					<meta property="og:url" content="https://ezwashtruckwash.herokuapp.com/" />
 					<meta property="og:site_name" content="EZ WASH Truck Wash" />
 					<meta name="twitter:site" content="@ezwashtruckwash" />
+					<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" />
+					<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css" />
+					<link rel="stylesheet" href="/static/styles.css" />
 				</Head>
 				<body>
 					<Main />

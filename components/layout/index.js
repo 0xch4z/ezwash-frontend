@@ -1,8 +1,11 @@
 import React, { Component, PropTypes } from 'react';
 import Head from 'next/head';
 
+import Header from './header';
+import Footer from './footer';
+import Navigation from './navigation';
+
 class Layout extends Component {
-  static title() { return "foo" }
 
   static propTypes() {
     return {
@@ -18,13 +21,9 @@ class Layout extends Component {
         <Head>
           <title>{ title ? title : "EZWash" }</title>
         </Head>
-        <header>
-          This is the header
-        </header>
+        <Header />
         { children }
-        <footer>
-          This is the footer
-        </footer>
+        <Footer />
       </div>
     );
   }
