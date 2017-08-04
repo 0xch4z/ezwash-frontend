@@ -1,6 +1,6 @@
 import React from 'react';
-import { Nav, Navbar, NavItem } from 'react-bootstrap';
-import Link from 'next/link';
+import { Nav, Navbar } from 'react-bootstrap';
+import NavLink from './nav-link';
 
 const Navigation = () => (
   <Navbar>
@@ -12,30 +12,11 @@ const Navigation = () => (
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav pullRight>
-        <NavItem eventKey={1}>
-          <Link href="/">
-            <div>Home</div>
-          </Link>
-        </NavItem>
-        <NavItem eventKey={2}>
-          <Link href="/services">
-            <div>Services</div>
-          </Link></NavItem>
-        <NavItem eventKey={3}>
-          <Link href="/employment">
-            <div>Employment</div>
-          </Link>
-        </NavItem>
-        <NavItem eventKey={4}>
-          <Link href="/about">
-            <div>About</div>
-          </Link>
-        </NavItem>
-        <NavItem eventKey={5}>
-          <Link href="/contact">
-            <div>Contact</div>
-          </Link>
-        </NavItem>
+        <NavLink href="/" name="Home" index={1} />
+        <NavLink href="/services" name="Services" index={2} />
+        <NavLink href="/employment" name="Employment" index={3} />
+        <NavLink href="/about" name="About" index={4} />
+        <NavLink href="/contact" name="Contact" index={5} />
       </Nav>
     </Navbar.Collapse>
   </Navbar>

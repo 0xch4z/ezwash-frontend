@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <footer id="footer">
-    {"© EZ Wash"}
+    © EZ Wash 2017
   </footer>
 );
 

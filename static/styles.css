@@ -33,7 +33,7 @@
 .carousel-inner>.item>img {
   object-fit: cover;
   width: 100%;
-  max-height: calc(100vh - 72px);
+  max-height: calc(100vh - 122px);
 }
 
 #root {
@@ -68,6 +68,39 @@
 #newsletter-ad-wrapper {
   text-align: center;
   display: flex;
-  margin: auto 100px;
+  margin: auto 0px;
+  height: 50px;
   justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #FB661E;
 }
+
+#newsletter-ad-wrapper>h3 {
+  display: inline-block;
+}
+
+#newsletter-ad-wrapper>button {
+  height: 30px;
+  margin-left: 15px;
+  display: inline-block;
+  background: #fff;
+}
+
+#content {
+  text-align: center;
+}
+
+#content>section {
+  margin: 50px;
+}
+
+.pillar-img-container {
+  text-align: center;
+}
+
+.pillar-img-container>img {
+  height: 30%;
+  width: 30%;
+}
+

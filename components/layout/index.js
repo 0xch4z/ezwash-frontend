@@ -27,7 +27,9 @@ class Layout extends Component {
           <title>{ title ? title : "EZWash" }</title>
         </Head>
         <Header slides={slides} />
-        { children }
+        <main id="content">
+          { children }
+        </main>
         <Footer />
       </div>
     );
