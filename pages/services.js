@@ -5,7 +5,7 @@ class Services extends Component {
 
 	render() {
 		return (
-			<Layout title="EZ Wash | Services">
+			<Layout title="Services">
 				<h1>Services</h1>
 			</Layout>
 		);

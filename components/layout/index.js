@@ -10,23 +10,34 @@ class Layout extends Component {
     return {
       title: PropTypes.string,
       children: PropTypes.element.isRequired,
-      slides: PropTypes.shape({
+      slides: PropTypes.arrayOf(PropTypes.shape({
         img: PropTypes.string.isRequired,
         alt: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
-      })
+      })),
+      image: PropTypes.shape({
+        image: PropTypes.string,
+        alt: PropTypes.string,
+      }),
+      topComponent: PropTypes.element,
     }
   }
 
   render() {
-    const { title, children, slides } = this.props;
+    const {
+      title,
+      children,
+      slides,
+      image,
+      topComponent
+    } = this.props;
     return (
       <div id="layout-root">
         <Head>
-          <title>{ title ? title : "EZWash" }</title>
+          <title>{ title ? `EZ Wash | ${title}` : "EZ Wash" }</title>
         </Head>
-        <Header slides={slides} />
+        <Header slides={slides} image={image} topComponent={topComponent} />
         <main id="content">
           { children }
         </main>

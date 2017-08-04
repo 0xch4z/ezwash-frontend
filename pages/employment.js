@@ -5,7 +5,7 @@ class Employment extends Component {
 
 	render() {
 		return (
-			<Layout title="EZ Wash | Employment">
+			<Layout title="Employment">
 				<h1>Employment</h1>
 			</Layout>
 		);

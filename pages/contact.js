@@ -5,7 +5,7 @@ class Contact extends Component {
 
 	render() {
 		return (
-			<Layout title="EZ Wash | Contact">
+			<Layout title="Contact">
 				<h1>Contact</h1>
 			</Layout>
 		);
