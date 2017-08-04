@@ -3,12 +3,12 @@ import React from 'react';
 import Navigation from './navigation';
 import Slideshow from '../slideshow';
 
-const Header = (props) => (
+const Header = ({ slides }) => (
   <header id="header">
     <Navigation />
     {
-      props.slides ?
-      <Slideshow slides={props.slides} /> : null
+      slides ?
+      <Slideshow slides={slides} /> : null
     }
   </header>
 );

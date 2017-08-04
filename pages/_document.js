@@ -15,8 +15,8 @@ export default class MyDocument extends Document {
 					<meta name="theme-color" content="#ffffff" />
 					<meta charSet="utf-8" />
 					<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />
-					<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-					<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+					<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+					<meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 					<meta name="google-site-verification" content="cHxjZ9OzSfZqZB4C_B4_Xh5QRjEOIgwzSBkTAN6k2jo" />
 					<meta name="author" content="Charles Kenney" />
 					<meta property="og:type" content="website" />

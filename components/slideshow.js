@@ -8,10 +8,13 @@ class Slideshow extends Component {
       index: 0,
       direction: null,
     };
+    console.log(this.props);
+    this.handleSelect = this.handleSelect.bind(this);
   };
 
   handleSelect(selected, e) {
-    e.preventDefault();
+    console.log(`e: ${e};\nselected: ${selected}`);
+    console.log(`slides: ${this.props.slides}`);
     this.setState({
       index: selected,
       direction: e.direction
