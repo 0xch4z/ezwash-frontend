@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+
 import Layout from '../components/layout';
+import NewsletterAd from '../components/newsletter-ad';
 
 const slides = [
   {
@@ -27,7 +29,7 @@ class Index extends Component {
 	render() {
 		return (
 			<Layout slides={slides} >
-				<h1>Home</h1>
+        <NewsletterAd />
 			</Layout>
 		);
 	}

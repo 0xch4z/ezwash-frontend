@@ -6,9 +6,7 @@ const Navigation = () => (
   <Navbar>
     <Navbar.Header>
         <Navbar.Brand>
-          <Link href="/">
-            <img src="/static/img/logo.svg" alt="ezwash-logo" />
-          </Link>
+          <img src="/static/img/logo.svg" alt="ezwash-logo" />
         </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
