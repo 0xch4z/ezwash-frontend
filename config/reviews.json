@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Frankie TF",
+    "avatar": "/static/img/customers/frankie.gif",
+    "review": "EZ Truck Wash is methodical, professional, fast AND very thorough. Better then Blue Beacon any day of the week.",
+    "medium": "Facebook",
+    "url": "https://www.facebook.com/pg/EZWashtruckwash/reviews/?ref=page_internal"
+  },
+  {
+    "name": "Daniel W",
+    "avatar": "/static/img/customers/daniel.jpg",
+    "review": "EZ Wash did an outstanding job on my company truck. Super easy to work with, convenient to drop in, always open, and they put in the extra work to make the truck shine unlike the competition. I'm sending all my drivers to EZ Wash!",
+    "medium": "Google Places",
+    "url": "https://www.google.com/maps/contrib/101594087633048989471/place/ChIJXT1FDCxtrIkRcL9TEQnCLA8/@35.720681,-78.5037349,11z/data=!4m6!1m5!8m4!1e1!2s101594087633048989471!3m1!1e1?hl=en-US"
+  }
+]

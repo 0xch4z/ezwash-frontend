@@ -1,7 +1,7 @@
 import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 
-export default class MyDocument extends Document {
+export default class Root extends Document {
 	render() {
 		return (
 			<html lang="en">
@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
 					<link rel="canonical" href="https://ezwashtruckwash.herokuapp.com/" />
 					<meta name="theme-color" content="#ffffff" />
 					<meta charSet="utf-8" />
-					<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />
+					<meta name="viewport" content="width=device-width,initial-scale=1" />
 					<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 					<meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 					<meta name="google-site-verification" content="cHxjZ9OzSfZqZB4C_B4_Xh5QRjEOIgwzSBkTAN6k2jo" />

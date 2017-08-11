@@ -1,0 +1,65 @@
+/* custom nav bar height */
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 70px;
+    height: 70px;
+}
+
+.navbar-nav li a {
+  padding-top: 0;
+}
+
+.navbar-header {
+  display: flex;
+}
+
+.navbar-header img {
+  flex-grow: 1;
+}
+
+.navbar-header button {
+  margin: 0 auto;
+  align-self: center;
+}
+
+/* custom nav bar height */
+/* remove spacing from nav bottom */
+.navbar-default {
+  margin-bottom: 0;
+}
+
+/* remove spacing from nav bottom */
+
+.carousel-inner>.item>img {
+  object-fit: cover;
+  width: 100%;
+  max-height: calc(100vh - 72px);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+#layout-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  flex-grow: 1;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 70px;
+  font-weight: 300;
+  color: #999;
+}
+.navbar-nav li a {
+  text-decoration: none;
+  color: inherit;
+}

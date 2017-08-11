@@ -1,10 +1,12 @@
 /* custom nav bar height */
+body {
+  background-color: #FB661E;
+}
 .navbar-brand,
 .navbar-nav li a {
     line-height: 70px;
     height: 70px;
 }
-
 .navbar-nav li a {
   padding-top: 0;
 }
@@ -50,6 +52,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: #fff;
 }
 
 #content {
@@ -63,7 +66,8 @@
   text-align: center;
   height: 70px;
   font-weight: 300;
-  color: #999;
+  background: #FB661E;
+  color: #fff;
 }
 
 .navbar-nav li a {
@@ -98,7 +102,11 @@
 }
 
 #content>section {
-  margin: 50px;
+  padding: 25px 0;
+}
+
+#content>section>h2 {
+  color: #455;
 }
 
 .pillar-img-container {
@@ -106,11 +114,43 @@
 }
 
 .pillar-img-container>img {
-  height: 30%;
-  width: 30%;
+  height: 125px;
+  width: 125px;
 }
 
 .pillar-container>p {
   margin: 10px 5%;
   margin-bottom: 20px;
+  color: #777;
+}
+
+.pillar-container>h4 {
+  color: #666;
+}
+
+#review {
+  background-color:#FB661E;
+  color: #fff;
+  padding: 60px 0 !important;
+}
+
+.review-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-avatar {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.review-container>h3 {
+  height: 150px;
+}
+
+.pillar-text {
+  font-size: 1.175em;
+  line-height: 1.75em;
 }

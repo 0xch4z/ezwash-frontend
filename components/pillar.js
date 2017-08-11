@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
 
 class Pillar extends Component {
   static propTypes() {
@@ -20,7 +20,7 @@ class Pillar extends Component {
             <img src={image} alt={alt} />
           </div>
           <h4>{title}</h4>
-          <p>{text}</p>
+          <p className="pillar-text">{text}</p>
         </div>
       </Col>
     );
