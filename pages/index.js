@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import _ from 'lodash';
 import { Grid, Col } from 'react-bootstrap';
 
 import Map from '../components/map';
@@ -9,7 +8,7 @@ import ReviewSlider from '../components/review-slider';
 import NewsletterAd from '../components/newsletter-ad';
 
 import slides from '../config/slides';
-import pillars from '../config/pillars';
+import pillars from '../config/home-pillars';
 import reviews from '../config/reviews';
 
 

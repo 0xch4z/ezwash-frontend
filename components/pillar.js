@@ -16,9 +16,11 @@ class Pillar extends Component {
     return (
       <Col style={{margin: "25px 0"}} sm={12} md={4}>
         <div className="pillar-container">
-          <div className="pillar-img-container">
-            <img src={image} alt={alt} />
-          </div>
+          { image ?
+            <div className="pillar-img-container">
+              <img src={image} alt={alt} />
+            </div> : null
+          }
           <h4>{title}</h4>
           <p className="pillar-text">{text}</p>
         </div>

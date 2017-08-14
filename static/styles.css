@@ -154,3 +154,26 @@ body {
   font-size: 1.175em;
   line-height: 1.75em;
 }
+
+.map {
+  background-color: #FB661E;
+}
+
+.form-group {
+  margin: 0 20px;
+  display: block !important;
+  text-align: left !important;
+}
+
+#about-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-section>p {
+  text-align: left;
+  font-size: 1.15em;
+}
