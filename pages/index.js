@@ -37,7 +37,6 @@ class Index extends Component {
             <Map />
           </Grid>
         </section>
-
       </Layout>
     );
   }

@@ -23,7 +23,7 @@ class Slideshow extends Component {
             <Carousel.Item key={index}>
               <img alt={slide.alt} src={slide.image} />
               <Carousel.Caption>
-                <h3>{slide.title}</h3>
+                <h4>{slide.title}</h4>
                 <p>{slide.description}</p>
               </Carousel.Caption>
             </Carousel.Item>

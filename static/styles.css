@@ -2,11 +2,13 @@
 body {
   background-color: #FB661E;
 }
+
 .navbar-brand,
 .navbar-nav li a {
     line-height: 70px;
     height: 70px;
 }
+
 .navbar-nav li a {
   padding-top: 0;
 }
@@ -114,8 +116,8 @@ body {
 }
 
 .pillar-img-container>img {
-  height: 125px;
-  width: 125px;
+  height: 75px;
+  width: 75px;
 }
 
 .pillar-container>p {
@@ -176,4 +178,12 @@ body {
 #about-section>p {
   text-align: left;
   font-size: 1.15em;
+}
+
+p {
+  font-size: 1.175em;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size: 1.165em;
 }

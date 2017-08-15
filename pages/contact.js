@@ -18,7 +18,6 @@ class Contact extends Component {
 					<h2>Get in touch</h2>
 					<Grid>
 						<Col sm={12} lg={6}>
-							<h4>Send us a message</h4>
 							<ContactForm />
 						</Col>
 						<Col sm={12} lg={6}>
