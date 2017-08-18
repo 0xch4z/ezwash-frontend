@@ -14,11 +14,13 @@
     "redux": "^3.6.0"
   },
   "scripts": {
+    "prestart": "npm run build",
     "dev": "node server",
     "build": "next build",
-    "start": "NODE_ENV=production node server"
+    "start": "NODE_ENV=production node server",
+    "heroku-postbuild": "npm run build"
   },
-  "devDependencies": {
-    "sw-precache-webpack-plugin": "^0.11.3"
+  "engines": {
+    "node": "8.4.0"
   }
 }
