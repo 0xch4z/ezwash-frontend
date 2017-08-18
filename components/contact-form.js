@@ -27,8 +27,8 @@ const buttonStyle = {
 };
 
 const FieldLabel = ({ children }) => (
-  <ControlLabel class="field-label" style={{color: '#666'}}>
-    {children} <span class="asterisk" style={{color: '#FB661E'}}>*</span>
+  <ControlLabel className="field-label" style={{color: '#666'}}>
+    {children} <span className="asterisk" style={{color: '#FB661E'}}>*</span>
   </ControlLabel>
 );
 

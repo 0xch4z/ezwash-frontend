@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { Grid, Col } from 'react-bootstrap';
+import { Grid } from 'react-bootstrap';
+import MapCon from 'react-icons/lib/md/map';
 
 import Map from '../components/map';
 import Layout from '../components/layout';
 import Pillar from '../components/pillar';
 import ReviewSlider from '../components/review-slider';
-import NewsletterAd from '../components/newsletter-ad';
+import PhoneAd from '../components/phone-ad';
 
 import slides from '../config/slides';
 import pillars from '../config/home-pillars';
@@ -17,7 +18,7 @@ class Index extends Component {
   render() {
     return (
       <Layout slides={slides} >
-        <NewsletterAd />
+        <PhoneAd />
         <section>
           <h2>Why choose us?</h2>
           <Grid>
@@ -33,6 +34,7 @@ class Index extends Component {
         </section>
         <section>
           <h2>We hope to see you soon!</h2>
+          <h3><MapCon /> 4465 Buffalo Rd, Selma, NC 27576</h3>
           <Grid id="map-container">
             <Map />
           </Grid>

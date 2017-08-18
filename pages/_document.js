@@ -11,7 +11,7 @@ export default class Root extends Document {
 					<link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
 					<link rel="manifest" href="/static/manifest.json" />
 					<link rel="mask-icon" href="/static/safari-pinned-tab.svg" color="#e87d00" />
-					<link rel="canonical" href="https://ezwashtruckwash.herokuapp.com/" />
+					<link rel="canonical" href="https://ezwashtruckwash.com/" />
 					<meta name="theme-color" content="#ffffff" />
 					<meta charSet="utf-8" />
 					<meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -21,10 +21,10 @@ export default class Root extends Document {
 					<meta name="author" content="Charles Kenney" />
 					<meta property="og:type" content="website" />
 					<meta property="og:title" content="EZ Wash Truck Wash" />
-					<meta property="og:image" content="https://ezwashtruckwash.herokuapp.com/static/img/ezwash-banner.png" />
-					<meta property="og:image:secure_url" content="https://ezwashtruckwash.herokuapp.com/" />
+					<meta property="og:image" content="https://ezwashtruckwash.com/static/img/ezwash-banner.png" />
+					<meta property="og:image:secure_url" content="https://ezwashtruckwash.com/" />
 					<meta property="og:description" content="EZ Wash, a premier commercial truck wash center, specializes in cleaning and detailing commercial transportation trucks." />
-					<meta property="og:url" content="https://ezwashtruckwash.herokuapp.com/" />
+					<meta property="og:url" content="https://ezwashtruckwash.com/" />
 					<meta property="og:site_name" content="EZ WASH Truck Wash" />
 					<meta name="twitter:site" content="@ezwashtruckwash" />
 					<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" />

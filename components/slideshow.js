@@ -34,45 +34,4 @@ class Slideshow extends Component {
   }
 }
 
-  // {
-  //   image: '/static/img/IMG_9935.JPG',
-  //   alt: 'ezwash wash site',
-  //   title: 'Quality Wash Guaranteed',
-  //   description: 'We strive to offer a high quality truck wash at a value price, with emphases on the customer.',
-  // },
-
-// class Slideshow extends Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       index: 0,
-//       direction: null,
-//     };
-//     console.log(this.props);
-//     this.handleSelect = this.handleSelect.bind(this);
-//   };
-
-//   handleSelect(selected, e) {
-//     console.log(`e: ${e};\nselected: ${selected}`);
-//     console.log(`slides: ${this.props.slides}`);
-//     this.setState({
-//       index: selected,
-//       direction: e.direction
-//     });
-//   }
-
-//   render() {
-//     return(
-//       <Carousel activeIndex={this.state.index} direction={this.state.direction} onSelect={this.handleSelect.bind(this)}>
-//         {
-//           this.props.slides.map((slide, index) => (
-
-//           ))
-//         }
-//       </Carousel>
-//     );
-//   }
-// }
-
-
 export default Slideshow;

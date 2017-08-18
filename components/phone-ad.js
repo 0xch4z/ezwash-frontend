@@ -16,17 +16,17 @@ const labelStyle = {
 };
 
 const newsletterAd = () => (
-  <div id="newsletter-ad-wrapper">
+  <div id="phone-ad-wrapper">
     <h4 style={labelStyle}><Phone />
       {" "}
       <span>(919)</span>
       {" "}
-      <span>802</span>
-      <span>-8647</span>
+      <span>995</span>
+      <span>-7894</span>
     </h4>
     <Button 
       type="button"
-      href="tel:9198028647"
+      href="tel:9199957894"
       style={buttonStyle}
     >
       Call now

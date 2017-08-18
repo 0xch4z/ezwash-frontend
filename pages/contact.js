@@ -3,6 +3,10 @@ import { Grid, Col } from 'react-bootstrap';
 
 import Layout from '../components/layout';
 import Map from '../components/map';
+import Phone from 'react-icons/lib/md/phone';
+import Location from 'react-icons/lib/md/room';
+import Email from 'react-icons/lib/md/mail';
+
 
 import ContactForm from '../components/contact-form';
 
@@ -21,7 +25,9 @@ class Contact extends Component {
 							<ContactForm />
 						</Col>
 						<Col sm={12} lg={6}>
-							<h1>PLACEHOLDER</h1>
+							<h3><Location /> 4465 Buffalo Rd, Selma, NC 27576</h3>
+							<h3><Email /> erik@ezwashtruckwash.com</h3>
+							<h3><Phone /> (919) 995-7894</h3>
 						</Col>
 					</Grid>
 				</section>

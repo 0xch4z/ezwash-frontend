@@ -8,15 +8,16 @@ class Pillar extends Component {
       alt: PropTypes.string,
       title: PropTypes.string.isRequired,
       text: PropTypes.string,
-      list: PropTypes.arrayOf(PropTypes.string)
+      list: PropTypes.arrayOf(PropTypes.string),
+      four: PropTypes.bool
     }
   }
 
   render() {
-    const { image, alt, title, text, list } = this.props;
+    const { image, alt, title, text, list, four } = this.props;
     console.log(this.props);
     return (
-      <Col style={{margin: "25px 0"}} sm={12} md={4}>
+      <Col style={{margin: "25px 0"}} sm={12} md={ four ? 3 : 4 }>
         <div className="pillar-container">
           { 
             image ?
