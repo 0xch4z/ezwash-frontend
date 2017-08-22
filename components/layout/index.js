@@ -37,7 +37,7 @@ class Layout extends Component {
       <div id="layout-root">
         <Head>
           <title>
-            { title ? (exactTitle ? title : `EZ Wash | Title`) : 'EZ Wash' }
+            { title ? (exactTitle ? title : `EZ Wash | ${title}`) : 'EZ Wash' }
           </title>
         </Head>
         <Header slides={slides} image={image} topComponent={topComponent} />

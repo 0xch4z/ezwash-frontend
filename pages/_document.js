@@ -7,15 +7,24 @@ export default class Root extends Document {
 			<html lang="en">
 				<Head>
 					{ /* MAIN SEO */ }
-					<meta name="description" content="EZ Wash Truck Wash, a premier commercial truck wash company based out of Selma, NC. EZ Wash specializes in cleaning and detailing commercial transportation trucks." />
+					<meta name="description" content="EZ Wash Truck Wash, a premier commercial truck wash company in Selma, NC. EZ Wash specializes in cleaning and detailing commercial transportation trucks." />
 					<meta name="keywords" content="EZ Wash, Truck Wash" />
 					<meta name="author" content="Charles Kenney, Erik Walser" />
 					{ /* OG META */ }
 					<meta property="og:title" content="EZ Wash Truck Wash" />
-					<meta property="og:description" content="EZ Wash Truck Wash, a premier commercial truck wash company based out of Selma, NC. EZ Wash specializes in cleaning and detailing commercial transportation trucks." />
+					<meta property="og:description" content="EZ Wash Truck Wash, a premier commercial truck wash company in Selma, NC. EZ Wash specializes in cleaning and detailing commercial transportation trucks." />
 					<meta property="og:type" content="website" />
 					<meta property="og:url" content="https://www.ezwashtruckwash.com/" />
 					<meta property="og:site_name" content="EZ Wash Truck Wash" />
+					{ /* TWITTER META */ }
+					<meta name="twitter:card" content="summary" />
+					<meta name="twitter:site" content="@ez_wash" />
+					<meta name="twitter:title" content="EZ Wash Truck Wash" />
+					<meta name="twitter:description" content="EZ Wash Truck Wash, a premier commercial truck wash company in Selma, NC. EZ Wash specializes in cleaning and detailing commercial transportation trucks." />
+					{ /* GOOGLE PLUS META */ }
+					<meta itemprop="name" content="EZ Wash Truck Wash" />
+					<meta itemprop="description" content="EZ Wash Truck Wash, a premier commercial truck wash company in Selma, NC. EZ Wash specializes in cleaning and detailing commercial transportation trucks." />
+					<meta itemprop="image" content="https://www.ezwashtruckwash.com/static/img/andriod-chrome-512x512.png" />
 					{ /* GENERAL META */ }
 					<meta name="google-site-verification" content="cHxjZ9OzSfZqZB4C_B4_Xh5QRjEOIgwzSBkTAN6k2jo" />
 					<meta charSet="utf-8" />
