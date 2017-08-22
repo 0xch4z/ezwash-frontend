@@ -27,6 +27,7 @@ class Layout extends Component {
   render() {
     const {
       title,
+      exactTitle,
       children,
       slides,
       image,
@@ -35,7 +36,9 @@ class Layout extends Component {
     return (
       <div id="layout-root">
         <Head>
-          <title>{ title ? `EZ Wash | ${title}` : "EZ Wash" }</title>
+          <title>
+            { title ? (exactTitle ? title : `EZ Wash | Title`) : 'EZ Wash' }
+          </title>
         </Head>
         <Header slides={slides} image={image} topComponent={topComponent} />
         <main id="content">

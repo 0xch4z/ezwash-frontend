@@ -17,10 +17,10 @@ class Index extends Component {
 
   render() {
     return (
-      <Layout slides={slides} >
+      <Layout exactTitle title="EZ Wash Truck Wash" slides={slides} >
         <PhoneAd />
         <section>
-          <h2>Why choose us?</h2>
+          <h2>Why choose EZ Wash?</h2>
           <Grid>
             {
               pillars.map(({ image, alt, title, text }, index) => (
