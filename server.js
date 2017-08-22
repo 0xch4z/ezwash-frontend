@@ -1,25 +1,30 @@
-const { createServer } = require('http');
-const path = require('path');
+const express = require('express');
 const next = require('next');
+const compression = require('compression');
 
+const port = process.env.PORT || 3000;
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dir: '.', dev });
+
 const handle = app.getRequestHandler();
 
-const PORT = process.env.PORT || 3000;
+app.prepare().then(() => {
 
-app.prepare().then(_ => {
-	const server = createServer((req, res) => {
-		if (req.url === '/sw.js') {
-			app.serveStatic(req, res, path.resolve('./.next/sw.js'));
-		} else {
-			handle(req, res);
-		}
-	});
+	const server = express();
+	
+	server.use(compression());
+	server.use('static', express.static('static'));
 
-	server.listen(PORT, err => {
-		if (err) throw err;
+  // mount next views
+  server.all('*', (req, res) => handle(req, res));
 
-		console.log(`> App running on port ${PORT}`);
-	});
+  server.listen(port, err => {
+    if (err) {
+      throw err;
+    }
+    console.log(`Client listening on ${port}`);
+  });
+
+}).catch((err) => {
+  console.error(err);
 });
