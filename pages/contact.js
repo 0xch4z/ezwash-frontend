@@ -27,7 +27,7 @@ class Contact extends Component {
 						<Col sm={12} lg={6}>
 							<h3><Location /> 4465 Buffalo Rd, Selma, NC 27576</h3>
 							<h3><Email /> erik@ezwashtruckwash.com</h3>
-							<h3><Phone /> (919) 995-7894</h3>
+							<h3><Phone /> (919) 995-7984</h3>
 						</Col>
 					</Grid>
 				</section>
